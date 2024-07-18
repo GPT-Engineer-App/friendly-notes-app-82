@@ -40,7 +40,7 @@ const Index = () => {
 
   return (
     <div className="container mx-auto p-4 max-w-3xl">
-      <h1 className="text-3xl font-bold mb-6">Notes App</h1>
+      <h1 className="text-3xl font-bold mb-6">Tiny Notes App</h1>
       <SearchBar setSearchTerm={setSearchTerm} />
       <AddNote addNote={addNote} />
       <div className="space-y-4 mt-6">
